@@ -12,7 +12,7 @@ const project=[{
 },{
     id:3,
     name:"JesLaser",
-    category:"Laser Hair Removal & Skin Care Clinic",
+    category:"Laser Hair Removal",
     image:"url('/laser-hair-removal.jpg')"
 }
 ]
