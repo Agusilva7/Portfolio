@@ -20,11 +20,11 @@ en mejorar el posicionamiento y la presencia digital
 de diversos clientes.
 </p>
                     </section>
-                    <section className="w-full lg:w-1/2 h-[300px] md:h-[500px] bg-cover" style={{backgroundImage:("url('/Dharma.jpeg')")}}></section>
+                    <section className="w-full lg:w-1/2 h-[280px] md:h-[500px] bg-cover" style={{backgroundImage:("url('/Dharma.jpeg')")}}></section>
                 </div>
 
                 <div className=" flex flex-col lg:flex-row gap-5"> 
-                    <section className="w-full lg:w-1/2 h-[300px] md:h-[500px] bg-cover" style={{backgroundImage:("url('/pasantia.jpg')")}}></section>
+                    <section className="w-full lg:w-1/2 h-[280px] md:h-[500px] bg-cover" style={{backgroundImage:("url('/pasantia.jpg')")}}></section>
                         <section className="w-full lg:w-1/2 gap-5 flex justify-center  flex-col px-0 lg:px-5"> 
                         <h2 className="text-2xl uppercase">Pasantia en Calm es Simple</h2>
                         <h3>Frontend Developer</h3>
