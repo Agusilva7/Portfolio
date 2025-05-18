@@ -8,8 +8,8 @@ export default function Hero(){
 
         <section className="w-full lg:w-1/2 z-15 text-black flex flex-col justify-center text-center lg:text-end items-center lg:items-end gap-2.5"  
         style={{ textShadow: "0 1px 2px rgba(0, 0, 0, 0.2)" }}>
-            <h1 className="text-5xl">Agustin Silva</h1>
-            <h2 className="text-4xl">Frontend Developer</h2>
+            <h1 className="text-4xl lg:text-5xl">Agustin Silva</h1>
+            <h2 className="text-3xl lg:text-4xl">Frontend Developer</h2>
             <h3 className="text-2xl lg:text-3xl"> Javascript | React | Next.js | Tailwind.css<br/>WordPress & Elementor </h3>
             <div className="text-2xl">
                 <button className="">Ver Proyectos</button>
