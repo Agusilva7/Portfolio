@@ -8,11 +8,7 @@ export default function Intro(){
           </div>
            <div className="w-px h-0 lg:h-20 bg-[#1c1c1c] mx-4" />
            <section className="flex flex-col gap-5">
-            <p>Desarrollo y personalización de sitios web
-              utilizando WordPress y Elementor.
-              Implementación de estrategias de SEO mediante
-              prácticas optimizadas y herramientas como
-              Rankmath SEO y esquemas locales.
+            <p>Diseño y personalizo sitios web utilizando WordPress y Elementor, enfocado en la optimización del rendimiento, la experiencia del usuario y el posicionamiento orgánico. Aplico estrategias SEO efectivas con herramientas como RankMath.
             </p>
             <p className="text-[21px]">"Me destaco por mi compromiso y gestión eficiente
               del tiempo."

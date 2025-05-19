@@ -32,7 +32,7 @@ de diversos clientes.
                         <h2 className="text-2xl uppercase">Pasantia en Calm es Simple</h2>
                         <h3>Frontend Developer</h3>
                         <h4>28/08/2023 - 22/09/2023</h4>
-                        <p>tuve la oportunidad de realizar una pasantía en Calm es Simple. Durante mi pasantía, tuve la tarea de llevar a cabo una refactorización de su sitio web. anterior estaba construido en WordPress, y mi misión era mejorar tanto la velocidad de carga como la experiencia del usuario. Para lograr esto, migré el sitio web a Next.js, lo que resultó en una notable mejora en el rendimiento y la accesibilidad.</p>
+                        <p>Durante mi pasantía en Calm es Simple, colaboré con el equipo de desarrollo en la maquetación de páginas para su nuevo sitio web, el cual estaba siendo migrado de WordPress a Next.js. Mi tarea principal fue implementar componentes reutilizables y secciones siguiendo los diseños definidos por el equipo. Para los estilos utilicé styled-components, asegurando una estructura limpia, responsive y alineada con los lineamientos del proyecto.</p>
                     </section>
                 </div>
 
