@@ -6,7 +6,7 @@ export default function Experience(){
                 <h2 className="text-3xl uppercase">Mi Experiencia en IT</h2>
 
                 <div className=" flex flex-col-reverse lg:flex-row gap-5 items-center"> 
-                    <section className="w-full lg:w-1/2 gap-5 flex justify-center  flex-col px-0 lg:px-5"> 
+                    <section className="w-full lg:w-1/2 gap-2.5 flex justify-center  flex-col px-0 lg:px-5"> 
                         <h2 className="text-2xl uppercase">Dharma Marketing Agency</h2>
                         <h3>Wordpress Developer</h3>
                         <h4>01/02/2024 - 01/05/2025</h4>
@@ -21,14 +21,14 @@ de diversos clientes.
 </p>
                     </section>
                     <div className="w-px h-0 lg:h-[350px] bg-white mx-4" />
-                    <section className="w-full lg:w-1/2 h-[280px] md:h-[500px] bg-cover" style={{backgroundImage:("url('/Dharma.jpeg')")}}></section>
+                    <section className="w-full lg:w-1/2 h-[280px] md:h-[500px] lg:h-[300px] xl:h-[450px] bg-cover" style={{backgroundImage:("url('/Dharma.jpeg')")}}></section>
                 </div>
                 <hr/>
 
                 <div className=" flex flex-col lg:flex-row gap-5 items-center"> 
-                    <section className="w-full lg:w-1/2 h-[280px] md:h-[500px] bg-cover" style={{backgroundImage:("url('/pasantia.jpg')")}}></section>
+                    <section className="w-full lg:w-1/2 h-[280px] md:h-[500px] lg:h-[300px] xl:h-[450px] bg-cover" style={{backgroundImage:("url('/pasantia.jpg')")}}></section>
                     <div className="w-px h-0 lg:h-[350px] bg-white mx-4" />
-                        <section className="w-full lg:w-1/2 gap-5 flex justify-center  flex-col px-0 lg:px-5"> 
+                        <section className="w-full lg:w-1/2 gap-2.5 flex justify-center  flex-col px-0 lg:px-5"> 
                         <h2 className="text-2xl uppercase">Pasantia en Calm es Simple</h2>
                         <h3>Frontend Developer</h3>
                         <h4>28/08/2023 - 22/09/2023</h4>
