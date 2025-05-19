@@ -37,7 +37,7 @@ export default function Projects(){
             }
 
             </section>
-           <button className="text-base m-5 uppercase border-2 p-2.5">Ver todas las Categorias</button>
+           <button className="text-base m-5 uppercase border-[1px] p-2.5">Ver todas las Categorias</button>
            <hr/>
       </section>
     )
