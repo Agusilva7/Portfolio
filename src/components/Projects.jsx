@@ -1,19 +1,24 @@
+import Link from "next/link"
+
 const project=[{
     id:1,
     name:"Usa Onasis Tile LLC",
-    category:"General Contractor",
-    image:"url('/general-contractor.jpg')"
+    category:"Contratista General",
+    image:"url('/general-contractor.jpg')",
+    link:"#General-Contractor"
 
 },{
     id:2,
-    name:"Airways Auto Tag",
-    category:"Auto Tag Agency",
-    image:"url('/auto-tag.jpg')"
+    name:"Farak Nails",
+    category:"Salon de Uñas",
+    image:"url('/nail-care.jpg')",
+    link:"#Nail-care"
 },{
     id:3,
     name:"JesLaser",
-    category:"Laser Hair Removal",
-    image:"url('/laser-hair-removal.jpg')"
+    category:"Clínica de Depilación Láser",
+    image:"url('/laser-hair-removal.jpg')",
+    link:"#Laser-Hair-Removal"
 }
 ]
 export default function Projects(){
@@ -25,19 +30,24 @@ export default function Projects(){
                 project.map((elemento)=>{
                
                     return(
-                        <div key={elemento.id} style={{backgroundImage:elemento.image}} className="w-full lg:w-1/3 h-[450px] bg-cover flex items-end justify-center  text-2xl text-white">
-                            <section className="bg-gradient-to-b from-transparent to-[#1c1c1c] w-full p-5">
-                                <h3 className="">{elemento.category}</h3>
+                        <Link key={elemento.id} href={`/proyectos${elemento.link}`} className="w-full lg:w-1/3 ">
+                            <div  style={{backgroundImage:elemento.image}} className=" bg-cover h-[450px] flex items-end justify-center  text-2xl text-white">
+                            
+                                <section className="bg-gradient-to-b from-transparent to-[#1c1c1c] w-full p-5">
+                                    <h3 className="">{elemento.category}</h3>
 
-                            </section>
-                        </div>
+                                </section>
+                            
+                            </div>
+                        </Link>
 
                     )
                 })
             }
 
             </section>
-           <button className="text-base m-5 uppercase border-[1px] p-2.5">Ver todas las Categorias</button>
+           <button className="text-base m-5 uppercase border-[1px] p-2.5"><Link href={"/proyectos"}>Ver todas las Categorias</Link></button>
+           
            <hr/>
       </section>
     )

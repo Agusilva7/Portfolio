@@ -1,6 +1,6 @@
 export default function Experience(){
     return(
-        <div className="bg-[#282828] w-full ">
+        <div className="bg-[#282828] w-full text-white">
             <section className="flex flex-col justify-center text-center container mx-auto gap-10 p-5 md:p-8 lg:p-20">
 
                 <h2 className="text-3xl uppercase">Mi Experiencia en IT</h2>

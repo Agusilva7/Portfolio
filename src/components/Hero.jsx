@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero(){
     return(
@@ -12,7 +13,8 @@ export default function Hero(){
             <h2 className="text-3xl lg:text-4xl">Frontend Developer</h2>
             <h3 className="text-2xl w-3xs lg:w-full lg:text-3xl"> Javascript | React | Next.js | Tailwind.css<br/>WordPress & Elementor </h3>
             <div className="text-2xl pt-2.5 ">
-                <button className="">Ver Proyectos</button>
+                <Link href={"/proyectos"}><button className="hover:text-gray-500">Ver Proyectos</button></Link>
+                
                 <button className=" w-24"  
                 style={{ textShadow: "0 1px 2px rgba(0, 0, 0, 0.2)" }}>Ver CV</button>
             </div>

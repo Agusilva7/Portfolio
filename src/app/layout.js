@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Form from "@/components/Form";
 import "./globals.css";
-import Header from "@/components/Header";
+
 import Navbar from "@/components/NavBar";
 
 const geistSans = Geist({
@@ -27,6 +28,10 @@ export default function RootLayout({ children }) {
        
         <Navbar/>
         {children}
+        <Form/>
+      <div className="bg-[#282828] mx-auto text-center p-5 text-[19px]">
+        <h3>Copyright © 2025 Agustin Silva Todos los derechos reservados.</h3>
+      </div>
       </body>
     </html>
   );

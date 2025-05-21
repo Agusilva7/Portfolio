@@ -16,13 +16,13 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-6 text-[19px]">
-          <Link href="#proyectos" className="hover:text-gray-400">
+          <Link href="/proyectos" className="hover:text-gray-400">
             Proyectos
           </Link>
-          <Link href="#sobre-mi" className="hover:text-gray-400">
+          <Link href="/sobre-mi" className="hover:text-gray-400">
             Sobre mí
           </Link>
-          <Link href="#contacto" className="hover:text-gray-400">
+          <Link href="/contacto" className="hover:text-gray-400">
             Contacto
           </Link>
         </nav>
@@ -40,13 +40,13 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden px-4 pb-4 flex flex-col gap-4 bg-[#282828]">
-          <Link href="#proyectos" onClick={() => setOpen(false)}>
+          <Link href="/proyectos" onClick={() => setOpen(false)}>
             Proyectos
           </Link>
-          <Link href="#sobre-mi" onClick={() => setOpen(false)}>
+          <Link href="/sobre-mi" onClick={() => setOpen(false)}>
             Sobre mí
           </Link>
-          <Link href="#contacto" onClick={() => setOpen(false)}>
+          <Link href="/contacto" onClick={() => setOpen(false)}>
             Contacto
           </Link>
         </div>
