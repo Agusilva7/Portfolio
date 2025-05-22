@@ -112,14 +112,17 @@ export default function Proyectos(){
                         elemento.id % 2 === 0 ?
                         
                         <section id={elemento.link} key={elemento.id} className="container mx-auto flex flex-col xl:flex-row-reverse gap-8">
-                            <div className="w-full xl:w-1/2 bg-white p-6 rounded h-[300px] md:h-[400px] relative"> 
-                                <Image 
-                                src={elemento.img}
-                                alt={elemento.name}
-                                fill
-                                className="object-cover rounded" 
-                                priority
-                                />
+                            <div className="w-full xl:w-1/2 bg-white p-6 rounded h-[300px] md:h-[400px] relative hover:rotate-1 transition duration-500 ease-in-out">
+                                <Link href={elemento.url} target="_blank">
+                                    <Image 
+                                    src={elemento.img}
+                                    alt={elemento.name}
+                                    fill
+                                    className="object-cover rounded" 
+                                    priority
+                                    />
+                                </Link>
+                                
                             </div>
                             <div className="w-full xl:w-1/2 flex flex-col  items-center text-center xl:items-start  xl:text-start justify-center p-6 rounded">
                                 <h2 className="text-2xl md:text-3xl">{elemento.name}</h2>
@@ -130,14 +133,16 @@ export default function Proyectos(){
                         </section>
                         :
                         <section id={elemento.link} key={elemento.id} className="container mx-auto flex flex-col xl:flex-row gap-8">
-                            <div className="w-full xl:w-1/2 bg-white p-6 rounded h-[300px] md:h-[400px] relative"> 
+                            <div className="w-full xl:w-1/2 bg-white p-6 rounded h-[300px] md:h-[400px] relative hover:-rotate-1 transition duration-500 ease-in-out">
+                            <Link href={elemento.url} target="_blank">
                                 <Image 
                                 src={elemento.img}
                                 alt={elemento.name}
                                 fill
-                                className="object-cover rounded" 
+                                className="object-cover rounded " 
                                 priority
                                 />
+                            </Link> 
                             </div>
                             <div className="w-full xl:w-1/2 flex flex-col  items-center text-center xl:items-start  xl:text-start justify-center p-6 rounded">
                                 <h2 className="text-2xl md:text-3xl">{elemento.name}</h2>
