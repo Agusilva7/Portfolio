@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function Form(){
     return(
         <section className="flex flex-col lg:flex-row gap-8 container mx-auto justify-center p-5 md:p-8 lg:p-20">
@@ -9,8 +10,13 @@ Trabajo con tecnologías como JavaScript, React.js, Next.js, Node.js, Redux y Ta
 
 <br/>📩 Completá el formulario a continuación para que podamos coordinar una entrevista o intercambiar más información sobre mi perfil.</p>
                 <h3>📞 ¿Preferís contactarme directamente?</h3>
-                <button className="text-start">📱 +54 9 11 3591-2665</button>
-                <button className="text-start">👉 Enviame un mensaje por WhatsApp</button>
+                <Link href={"tel:91135912665"}>
+                    <button className="text-start hover:translate-x-0.5 transition duration-500 ease-in-out">📱 +54 9 11 3591-2665</button>
+                </Link>
+                <Link href={"https://api.whatsapp.com/send/?phone=5491135912665&text=Hola+Agustin+como+estas%3F+Estaba+viendo+tu+portafolio+y+me+parecio+interesante%2C+podemos+agendar+una+reuni%C3%B3n%3F&type=phone_number&app_absent=0"} target="_blank"
+                        rel="noopener noreferrer" >
+                    <button className="text-start hover:translate-x-0.5 transition duration-500 ease-in-out">👉 Enviame un mensaje por WhatsApp</button>
+                </Link>
             </div>
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
                 <form

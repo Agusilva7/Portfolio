@@ -128,7 +128,7 @@ export default function Proyectos(){
                                 <h2 className="text-2xl md:text-3xl">{elemento.name}</h2>
                                 <h3 className="text-[19px] md:text-2xl">{elemento.category}</h3>
                                 <p className="text-base leading-relaxed">{elemento.text}</p>
-                                <button className="border-[1px] p-2 mt-2.5 uppercase px-4 py-2 w-fit hover:bg-white hover:text-black transition"><Link href={elemento.url} target="_blank">Visitar Sitio web</Link></button></div>
+                                <button className="border-[1px] p-2 mt-2.5 uppercase px-4 py-2 w-fit hover:bg-white hover:text-black transition"><Link href={elemento.url} target="_blank" rel="noopener noreferrer">Visitar Sitio web</Link></button></div>
                                 
                         </section>
                         :
@@ -148,7 +148,7 @@ export default function Proyectos(){
                                 <h2 className="text-2xl md:text-3xl">{elemento.name}</h2>
                                 <h3 className="text-[19px] md:text-2xl">{elemento.category}</h3>
                                 <p className="text-base leading-relaxed">{elemento.text}</p>
-                                <button className="border-[1px] p-2 mt-2.5 uppercase px-4 py-2 w-fit hover:bg-white hover:text-black transition"><Link href={elemento.url} target="_blank">Visitar Sitio web</Link></button></div>
+                                <button className="border-[1px] p-2 mt-2.5 uppercase px-4 py-2 w-fit hover:bg-white hover:text-black transition"><Link href={elemento.url} target="_blank" rel="noopener noreferrer">Visitar Sitio web</Link></button></div>
                                 
                         </section>
                     )

@@ -17,7 +17,7 @@ export default function SobreMi(){
                     <Link href={"/Agustin-Silva-CV.pdf"} 
                         target="_blank"
                         rel="noopener noreferrer" >
-                        <button className="border-1 px-2 py-1 rounded text-base uppercase hover:hover:text-gray-500">Ver CV</button>
+                        <button className="border-1 px-2 py-1 rounded text-base uppercase hover:bg-[#1c1c1c] hover:text-white transition">Ver CV</button>
                     </Link>
                 </section>
 
@@ -31,7 +31,7 @@ export default function SobreMi(){
                     <h2 className="text-2xl md:text-3xl lg:text-4xl">Mi Trayectoria Digital</h2>
                     <h3 className="text-[19px] md:text-2xl">Diseño y Posicionamiento digital</h3>
                     <p>En Dharma Marketing trabajé en la creación de sitios personalizados con <b>WordPress y Elementor</b>, aplicando buenas prácticas de <b>SEO con RankMath</b>. Mejoré continuamente la calidad del diseño y la optimización, cuidando siempre la coherencia digital y el posicionamiento de cada marca.</p>
-                     <button className="border-1 px-2 py-1 rounded text-base uppercase hover:text-gray-500"><Link href={"/proyectos"}>Ver Proyectos</Link></button>
+                     <button className="border-1 px-2 py-1 rounded text-base uppercase hover:bg-[#1c1c1c] hover:text-white transition"><Link href={"/proyectos"}>Ver Proyectos</Link></button>
                 </section>
 
             </div>
