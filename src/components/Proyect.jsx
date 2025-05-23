@@ -6,7 +6,7 @@ const info = [
     name: "JesLaser",
     category: "Clínica de Depilación Láser y Cuidado Facial",
     text: "JesLaser es un centro especializado en depilación láser y tratamientos faciales. En este proyecto desarrollé un sitio web moderno, minimalista y centrado en la experiencia del usuario. Mi objetivo fue facilitar la reserva de turnos, presentar los servicios de manera clara y generar confianza en nuevos visitantes.",
-    img: "/captura-jeslaser.jpg",
+    img: "/proyecto-jeslaser.jpg",
     url: "https://www.jeslaser.com/",
     link:"Laser-Hair-Removal"
   },
