@@ -30,7 +30,7 @@ export default function Projects(){
                 project.map((elemento)=>{
                
                     return(
-                        <Link key={elemento.id} href={`/proyectos${elemento.link}`} className="w-full lg:w-1/3 ">
+                        <Link key={elemento.id} href={`/proyectos${elemento.link}`}  className="w-full lg:w-1/3 ">
                             <div  style={{backgroundImage:elemento.image}} className=" bg-cover h-[450px] flex items-end justify-center  text-2xl text-white">
                             
                                 <section className="bg-gradient-to-b from-transparent to-[#1c1c1c] w-full p-5">

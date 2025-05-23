@@ -113,7 +113,7 @@ export default function Proyectos(){
                         
                         <section id={elemento.link} key={elemento.id} className="container mx-auto flex flex-col xl:flex-row-reverse gap-8">
                             <div className="w-full xl:w-1/2 bg-white p-6 rounded h-[300px] md:h-[400px] relative hover:rotate-1 transition duration-500 ease-in-out">
-                                <Link href={elemento.url} target="_blank">
+                                <Link href={elemento.url} target="_blank" >
                                     <Image 
                                     src={elemento.img}
                                     alt={elemento.name}
