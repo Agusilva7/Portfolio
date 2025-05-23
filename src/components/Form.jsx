@@ -1,9 +1,9 @@
 export default function Form(){
     return(
         <section className="flex flex-col lg:flex-row gap-8 container mx-auto justify-center p-5 md:p-8 lg:p-20">
-            <div className="w-full lg:w-1/2 flex flex-col gap-2.5 text-[#1c1c1c] ">
-                <h2 className="text-2xl text-center lg:text-start uppercase">Trabajemos juntos</h2>
-                <p>Estoy disponible para sumarme a nuevos desafíos profesionales. Si sos reclutador o representás a una empresa que busca un desarrollador frontend comprometido y con experiencia, será un gusto conocernos.
+            <div className="w-full lg:w-1/2 flex flex-col gap-2.5 text-[#1c1c1c] items-center lg:items-start">
+                <h2 className="text-2xl  uppercase">Trabajemos juntos</h2>
+                <p className="text-center lg:text-justify">Estoy disponible para sumarme a nuevos desafíos profesionales. Si sos reclutador o representás a una empresa que busca un desarrollador frontend comprometido y con experiencia, será un gusto conocernos.
 
 Trabajo con tecnologías como JavaScript, React.js, Next.js, Node.js, Redux y Tailwind CSS, además de especializarme en desarrollo web con WordPress y Elementor, integrando soluciones modernas, escalables y orientadas a resultados.
 

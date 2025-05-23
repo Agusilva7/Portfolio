@@ -14,9 +14,12 @@ export default function Hero(){
             <h3 className="text-2xl w-3xs lg:w-full lg:text-3xl"> Javascript | React | Next.js | Tailwind.css<br/>WordPress & Elementor </h3>
             <div className="text-2xl pt-2.5 ">
                 <Link href={"/proyectos"}><button className="hover:text-gray-500">Ver Proyectos</button></Link>
-                
-                <button className=" w-24"  
-                style={{ textShadow: "0 1px 2px rgba(0, 0, 0, 0.2)" }}>Ver CV</button>
+                <Link href={"/Agustin-Silva-CV.pdf"} 
+                target="_blank"
+                rel="noopener noreferrer" >
+                    <button className="hover:text-gray-500 w-24"  
+                    style={{ textShadow: "0 1px 2px rgba(0, 0, 0, 0.2)" }}>Ver CV</button>
+                </Link>
             </div>
         </section>
 
