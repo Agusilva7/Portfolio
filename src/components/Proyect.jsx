@@ -124,7 +124,7 @@ export default function Proyectos(){
                                 </Link>
                                 
                             </div>
-                            <div className="w-full xl:w-1/2 flex flex-col  items-center text-center xl:items-start  xl:text-start justify-center p-6 rounded">
+                            <div className="w-full xl:w-1/2 flex flex-col  items-center text-center text-white xl:items-start  xl:text-start justify-center p-6 rounded">
                                 <h2 className="text-2xl md:text-3xl">{elemento.name}</h2>
                                 <h3 className="text-[19px] md:text-2xl">{elemento.category}</h3>
                                 <p className="text-base leading-relaxed">{elemento.text}</p>
